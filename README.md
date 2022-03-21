@@ -54,3 +54,20 @@ I spent some quality time reading through SoundFingerprinting's documentation to
 SoundFingerprinting first needs to decode and hash the original audio files to be stored in memory. This will be using FFMpeg as discussed above. It then needs to pair that hash with some metadata, stored in a model service. The model service is simply how SoundFingerprinting stores the files in memory. The audio service and model service are then used in building a query with a file to be tested.
 
 For testing purposes I exported the current version of some music I'm working on. I exported small excerpts of that track. For the chorus I exported versions with different speeds and pitches. The code I wrote to test this has been uploaded to the repo (or will be, if you somehow read this as soon as it updates). The test results look very promising. It was able to match all the excerpts with the original tempo and pitch. The chorus files with modified speed were almost all succesfully matched, with the more extreme changes being unsuccesful. None of the files with a modified pitch were succesful in finding a match with the original sound file. The good news is, in my use case this is super easy to account for. I'm going to know exactly how much pitch I modulate a sound by. Actually wait a minute, now that I'm writing this, I realize that the pitch doesn't... actually... matter in determining speed and placement of a video file.
+
+### Plan for the rest of semester
+Effectively 2 stages of development: generating the data (SoundFingerprinting) and applying the data (FFMpeg).  
+
+Stage 1 would analyze the original and doctored audios. The data it generates contains information on which sections of the video should be cut up and how it should be re-arranged. If SoundFingerprinting is able to produce specific timestamps for queried audio in a file, that functionality will be used directly. Otherwise the hashing function will be used in a pattern matching algorithm.
+
+Stage 2 would use FFMpeg and the data generated in stage 1 to modify and export the new video files.  
+
+Deadline for stage 1: April 9 (4 weeks, not including spring break)  
+Week 1 - Determine how accurate the automatically produced timestamps can be  
+Week 2 - Functionality to cut up audio in sections based on length of measure (maybe input how many measures each section should be)  
+Week 3 - Generate hash codes for each section, match them together  
+Week 4 - Generate information for a new video file based on which the matched sections  
+
+Deadline for stage 2: April 30 (3 weeks)  
+Week 1 - Generate new video file based on the generated information  
+Weeks 2, 3 - Debugging weeks  
