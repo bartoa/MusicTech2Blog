@@ -71,3 +71,14 @@ Week 4 - Generate information for a new video file based on which the matched se
 Deadline for stage 2: April 30 (3 weeks)  
 Week 1 - Generate new video file based on the generated information  
 Weeks 2, 3 - Debugging weeks  
+
+## Week of March 21
+### Genesis of code
+So it's been a couple weeks, oops. To be fair, one of those weeks was
+for spring break. Regardless, back into the thick of things!  
+
+First thing I did was refactoring the folder structure of this repo 
+so it's functional as an actual code base. Anyone should now be able
+to run the code upon cloning this repo. In other words, it's no longer
+"just" a blog. Next thing is to code down the experiments for 
+the accuracy of SoundFingerprinting in identifying specific timestamps
