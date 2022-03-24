@@ -1,0 +1,394 @@
+JESTER MUSICIAN TESTING - SAMPLES OF 8 MEASURES EACH
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester 128 BPM.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 01.mp3
+Query match starts at: 3.7387518882751465
+Track match starts at: 139.79681396484375
+Track starts at: -141.6661834716797
+Confidence: 0.706569143713137
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 02.mp3
+Query match starts at: 5.584905624389648
+Track match starts at: 12.261248588562012
+Track starts at: -19.79680633544922
+Confidence: 0.47563972075235755
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 03.mp3
+Query match starts at: 0.046444121748209
+Track match starts at: 34.833091735839844
+Track starts at: -34.77503967285156
+Confidence: 0.9718561795186329
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 04.mp3
+Query match starts at: 0
+Track match starts at: 49.7880973815918
+Track starts at: -49.78810119628906
+Confidence: 0.9836546307198505
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 05.mp3
+Query match starts at: 0.058055151253938675
+Track match starts at: 49.880985260009766
+Track starts at: -64.77793884277344
+Confidence: 0.9855660362627072
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 06.mp3
+Query match starts at: 0
+Track match starts at: 79.79100036621094
+Track starts at: -79.79100036621094
+Confidence: 0.9680867566166221
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 07.mp3
+Query match starts at: 7.37300443649292
+Track match starts at: 94.65312194824219
+Track starts at: -94.79244995117188
+Confidence: 0.610646068829021
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 08.mp3
+Query match starts at: 0
+Track match starts at: 109.79390716552734
+Track starts at: -109.79390716552734
+Confidence: 0.8784929627356675
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 09.mp3
+Query match starts at: 6.838896751403809
+Track match starts at: 19.134977340698242
+Track starts at: -19.77358627319336
+Confidence: 0.5186052387301814
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 10.mp3
+Query match starts at: 5.584905624389648
+Track match starts at: 12.261248588562012
+Track starts at: -19.79680824279785
+Confidence: 0.4170023536605012
+
+
+
+JESTER MUSICIAN TESTING - SAMPLES OF 4 MEASURES EACH
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester 128 BPM.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 01.mp3
+Query match starts at: 5.538461685180664
+Track match starts at: 139.70391845703125
+Track starts at: -151.03628540039062
+Confidence: 0.6710613847639219
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 02.mp3
+Query match starts at: 0.12772133946418762
+Track match starts at: 4.92307710647583
+Track starts at: -12.272859573364258
+Confidence: 0.9659092224940308
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 03.mp3
+Query match starts at: 2.64731502532959
+Track match starts at: 14.955007553100586
+Track starts at: -19.79680633544922
+Confidence: 0.6270905828017026
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 04.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.773584365844727
+Confidence: 0.9634458798877824
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 05.mp3
+Query match starts at: 0.20899854600429535
+Track match starts at: 35.01886749267578
+Track starts at: -34.78664779663086
+Confidence: 0.9206171872235382
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 06.mp3
+Query match starts at: 0
+Track match starts at: 42.26415252685547
+Track starts at: -42.28737258911133
+Confidence: 0.944030651118418
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 07.mp3
+Query match starts at: 0
+Track match starts at: 49.7880973815918
+Track starts at: -49.7880973815918
+Confidence: 0.9411082079427278
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 08.mp3
+Query match starts at: 0
+Track match starts at: 57.31204605102539
+Track starts at: -57.288822174072266
+Confidence: 0.9484485789068626
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 09.mp3
+Query match starts at: 0.10449927300214767
+Track match starts at: 49.880985260009766
+Track starts at: -49.7880973815918
+Confidence: 0.9345112084334418
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 10.mp3
+Query match starts at: 0
+Track match starts at: 72.26705169677734
+Track starts at: -72.29027557373047
+Confidence: 0.9490839871108783
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 11.mp3
+Query match starts at: 0
+Track match starts at: 79.79100036621094
+Track starts at: -79.7793960571289
+Confidence: 0.7148147192015175
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 12.mp3
+Query match starts at: 0
+Track match starts at: 79.79100036621094
+Track starts at: -87.2917251586914
+Confidence: 0.6775201863902535
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 13.mp3
+Query match starts at: 0.058055151253938675
+Track match starts at: 94.83889770507812
+Track starts at: -94.78084564208984
+Confidence: 0.7142597561202491
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 14.mp3
+Query match starts at: 0.12772133946418762
+Track match starts at: 94.9317855834961
+Track starts at: -102.29317474365234
+Confidence: 0.6972509114319084
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 15.mp3
+Query match starts at: 0
+Track match starts at: 109.79390716552734
+Track starts at: -124.79535675048828
+Confidence: 0.8144508008658318
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 16.mp3
+Query match starts at: 0
+Track match starts at: 109.79390716552734
+Track starts at: -117.28302001953125
+Confidence: 0.6873540650291641
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 17.mp3
+Query match starts at: 1.2307692766189575
+Track match starts at: 20.99274253845215
+Track starts at: -27.297531127929688
+Confidence: 0.875065164596909
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 18.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -27.274311065673828
+Confidence: 0.7260236368272747
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 19.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.79680633544922
+Confidence: 0.9696616659413192
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 20.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.78519630432129
+Confidence: 0.7260236368272747
+
+
+
+JESTER MUSICAN TESTING - 4 measures per sample, hashing with frequency of 20 -> 2000 Hz (Default is 318 -> 2000 Hz)
+No coverage found for any samples
+
+
+
+JESTER MUSICIAN TESTING - 4 measures per sample, hashing with frequency of 200 -> 2000 Hz
+No coverage found for any samples
+
+
+
+JESTER MUSICIAN TESTING - 4 measures per sample, hashing with frequency of 318 -> 2500 Hz
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester 128 BPM.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 01.mp3
+Query match starts at: 5.399129390716553
+Track match starts at: 147.04208374023438
+Track starts at: -141.64295959472656
+Confidence: 0.45889838354829326
+
+No coverage found for any other samples...
+
+
+
+JESTER MUSICIAN TESTING - 4 measures per sample, stride of 256 samples (default is 512)
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester 128 BPM.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 01.mp3
+Query match starts at: 5.515239238739014
+Track match starts at: 139.657470703125
+Track starts at: -139.79681396484375
+Confidence: 0.6768199433745834
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 02.mp3
+Query match starts at: 1.8693759441375732
+Track match starts at: 4.7837443351745605
+Track starts at: -12.284469604492188
+Confidence: 0.8646128982283704
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 03.mp3
+Query match starts at: 2.64731502532959
+Track match starts at: 14.955007553100586
+Track starts at: -19.78519630432129
+Confidence: 0.5758544237203455
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 04.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.78519630432129
+Confidence: 0.9261511825974794
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 05.mp3
+Query match starts at: 0
+Track match starts at: 34.78664779663086
+Track starts at: -34.78664779663086
+Confidence: 0.9425671784979406
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 06.mp3
+Query match starts at: 0
+Track match starts at: 42.26415252685547
+Track starts at: -42.29898452758789
+Confidence: 0.9502413571623823
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 07.mp3
+Query match starts at: 0
+Track match starts at: 49.7880973815918
+Track starts at: -49.7880973815918
+Confidence: 0.9469713585393377
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 08.mp3
+Query match starts at: 0
+Track match starts at: 57.265602111816406
+Track starts at: -57.27721405029297
+Confidence: 0.9487682531157133
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 09.mp3
+Query match starts at: 0
+Track match starts at: 64.78955078125
+Track starts at: -64.78955078125
+Confidence: 0.9484485789068626
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 10.mp3
+Query match starts at: 0
+Track match starts at: 72.26705169677734
+Track starts at: -72.29027557373047
+Confidence: 0.9454987325938526
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 11.mp3
+Query match starts at: 0
+Track match starts at: 79.74456024169922
+Track starts at: -79.77938842773438
+Confidence: 0.9458356268790414
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 12.mp3
+Query match starts at: 0
+Track match starts at: 79.79100036621094
+Track starts at: -87.28011322021484
+Confidence: 0.7328930521756303
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 13.mp3
+Query match starts at: 0
+Track match starts at: 94.79244995117188
+Track starts at: -94.78083801269531
+Confidence: 0.9514168891815769
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 14.mp3
+Query match starts at: 0
+Track match starts at: 94.79244995117188
+Track starts at: -102.29317474365234
+Confidence: 0.5864799869931222
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 15.mp3
+Query match starts at: 0
+Track match starts at: 109.7474594116211
+Track starts at: -109.79390716552734
+Confidence: 0.3818275454862742
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 16.mp3
+Query match starts at: 0
+Track match starts at: 109.79390716552734
+Track starts at: -117.29463195800781
+Confidence: 0.7515252017325675
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 17.mp3
+Query match starts at: 3.6690855026245117
+Track match starts at: 15.930334091186523
+Track starts at: -19.79680633544922
+Confidence: 0.40865878764439306
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 18.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.79680633544922
+Confidence: 0.6423350684132406
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 19.mp3
+Query match starts at: 0
+Track match starts at: 19.738752365112305
+Track starts at: -19.78519630432129
+Confidence: 0.9472996707089588
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 20.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.78519630432129
+Confidence: 0.9261511825974794
+
+
+
+JESTER MUSICIAN TESTING - 4 measures per sample, stride length of 128
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester 128 BPM.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 01.mp3
+Query match starts at: 5.468795299530029
+Track match starts at: 139.63424682617188
+Track starts at: -139.77359008789062
+Confidence: 0.6625150033469052
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 02.mp3
+Query match starts at: 3.483309030532837
+Track match starts at: 4.505079746246338
+Track starts at: -12.284469604492188
+Confidence: 0.7945144373148358
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 03.mp3
+Query match starts at: 0.11611030250787735
+Track match starts at: 14.281567573547363
+Track starts at: -19.785194396972656
+Confidence: 0.6541949113872949
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 04.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.79680824279785
+Confidence: 0.9514168766930284
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 05.mp3
+Query match starts at: 0
+Track match starts at: 34.78664779663086
+Track starts at: -34.78664779663086
+Confidence: 0.9454987325938526
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 06.mp3
+Query match starts at: 0
+Track match starts at: 42.26415252685547
+Track starts at: -42.28737258911133
+Confidence: 0.9502413571623823
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 07.mp3
+Query match starts at: 0
+Track match starts at: 49.76487731933594
+Track starts at: -49.79970932006836
+Confidence: 0.9486089000053591
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 08.mp3
+Query match starts at: 0
+Track match starts at: 57.265602111816406
+Track starts at: -57.27721405029297
+Confidence: 0.9454987325938526
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 09.mp3
+Query match starts at: 0
+Track match starts at: 64.76632690429688
+Track starts at: -64.77793884277344
+Confidence: 0.9469713585393377
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 10.mp3
+Query match starts at: 0
+Track match starts at: 72.24382781982422
+Track starts at: -72.26705169677734
+Confidence: 0.9472997109092873
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 11.mp3
+Query match starts at: 0
+Track match starts at: 79.74456024169922
+Track starts at: -79.77938842773438
+Confidence: 0.951868778167298
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 12.mp3
+Query match starts at: 0
+Track match starts at: 79.79100036621094
+Track starts at: -87.28012084960938
+Confidence: 0.602930621637767
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 13.mp3
+Query match starts at: 0
+Track match starts at: 94.76923370361328
+Track starts at: -94.75762176513672
+Confidence: 0.9484485260659211
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 14.mp3
+Query match starts at: 0
+Track match starts at: 94.76923370361328
+Track starts at: -102.28157043457031
+Confidence: 0.5875756116659022
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 15.mp3
+Query match starts at: 0
+Track match starts at: 109.7474594116211
+Track starts at: -109.77068328857422
+Confidence: 0.951868778167298
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 16.mp3
+Query match starts at: 0
+Track match starts at: 109.79390716552734
+Track starts at: -117.29462432861328
+Confidence: 0.5707413041094395
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 17.mp3
+Query match starts at: 5.503628253936768
+Track match starts at: 19.645862579345703
+Track starts at: -19.78519630432129
+Confidence: 0.5483356930319403
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 18.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.78519630432129
+Confidence: 0.9484485656966374
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 19.mp3
+Query match starts at: 0.11611030250787735
+Track match starts at: 14.281567573547363
+Track starts at: -19.785194396972656
+Confidence: 0.7105669034785661
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Jester Sample 20.mp3
+Query match starts at: 0
+Track match starts at: 19.78519630432129
+Track starts at: -19.78519630432129
+Confidence: 0.9261511825974794

@@ -4,9 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using FFMpegCore;
 using NUnit.Framework;
+using SoundFingerprinting.Configuration;
 using SoundFingerprinting.Data;
 using SoundFingerprinting.Emy;
 using SoundFingerprinting.InMemory;
+using SoundFingerprinting.Strides;
 using VideoAligner;
 
 namespace VideoAlignerTest.Experiments;
@@ -20,7 +22,7 @@ public static class TimestampAccuracyTest
         Console.WriteLine("Begin the test runner!");
         
         String rootPath = "C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/";
-        String megalovaniaPath = rootPath + "Undertale.mp3";
+        String megalovaniaPath = rootPath + "Jester Musician.mp3";
         
         //DEFINE TIME INTERVALS FOR MEGALOVANIA TEST FILES
         //(I'm also testing how I could compare a chopped up edited file using user input)
@@ -35,7 +37,7 @@ public static class TimestampAccuracyTest
         float secondsPerMeasure = beatsPerMeasure / beatsPerSecond;
         float secondsPerSample = secondsPerMeasure * measuresPerSample;
         
-        String megalovaniaOutputPath = rootPath + "Undertale 128 BPM.mp3";
+        String megalovaniaOutputPath = rootPath + "Jester 128 BPM.mp3";
         FFMpegArguments
             .FromFileInput(megalovaniaPath)
             .OutputToFile(megalovaniaOutputPath, true, options => options
@@ -48,24 +50,37 @@ public static class TimestampAccuracyTest
 
         List<String> testFiles = new List<String>
         {
-            rootPath + "Megalovania Sample 01.mp3",
-            rootPath + "Megalovania Sample 02.mp3",
-            rootPath + "Megalovania Sample 03.mp3",
-            rootPath + "Megalovania Sample 04.mp3",
-            rootPath + "Megalovania Sample 05.mp3",
-            rootPath + "Megalovania Sample 06.mp3",
-            rootPath + "Megalovania Sample 07.mp3",
-            rootPath + "Megalovania Sample 08.mp3",
-            rootPath + "Megalovania Sample 09.mp3",
-            rootPath + "Megalovania Sample 10.mp3",
+            rootPath + "Jester Sample 01.mp3",
+            rootPath + "Jester Sample 02.mp3",
+            rootPath + "Jester Sample 03.mp3",
+            rootPath + "Jester Sample 04.mp3",
+            rootPath + "Jester Sample 05.mp3",
+            rootPath + "Jester Sample 06.mp3",
+            rootPath + "Jester Sample 07.mp3",
+            rootPath + "Jester Sample 08.mp3",
+            rootPath + "Jester Sample 09.mp3",
+            rootPath + "Jester Sample 10.mp3",
+            rootPath + "Jester Sample 11.mp3",
+            rootPath + "Jester Sample 12.mp3",
+            rootPath + "Jester Sample 13.mp3",
+            rootPath + "Jester Sample 14.mp3",
+            rootPath + "Jester Sample 15.mp3",
+            rootPath + "Jester Sample 16.mp3",
+            rootPath + "Jester Sample 17.mp3",
+            rootPath + "Jester Sample 18.mp3",
+            rootPath + "Jester Sample 19.mp3",
+            rootPath + "Jester Sample 20.mp3",
 
         };
 
         var audioService = new FFmpegAudioService();
+
+        var fingerprintConfig = new DefaultAVFingerprintConfiguration();
+        //fingerprintConfig.Audio.FrequencyRange = new FrequencyRange(318, 2000);
+        fingerprintConfig.Audio.Stride = new IncrementalStaticStride(128);
+        var megalovaniaHash = await Utilities.BuildHash(megalovaniaOutputPath, audioService, fingerprintConfig);
         
-        var megalovaniaHash = await Utilities.BuildHash(megalovaniaOutputPath, audioService);
-        
-        var megalovaniaTrack = new TrackInfo("1", "Megalovania", "Toby Fox");
+        var megalovaniaTrack = new TrackInfo("1", "Jester Musician", "Jester Musician");
         var modelService = new InMemoryModelService();
         modelService.Insert(megalovaniaTrack, megalovaniaHash);
 
