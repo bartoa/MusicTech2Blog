@@ -1,0 +1,52 @@
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Undertale 128 BPM.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 01.mp3
+Query match starts at: 4.806966781616211
+Track match starts at: 134.31640625
+Track starts at: -135.1175537109375
+Confidence: 0.633767327844504
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 02.mp3
+Query match starts at: 0
+Track match starts at: 15.140783309936523
+Track starts at: -15.140783309936523
+Confidence: 0.9710999724292964
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 03.mp3
+Query match starts at: 0
+Track match starts at: 30.188678741455078
+Track starts at: -30.130624771118164
+Confidence: 0.9733721824647953
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 04.mp3
+Query match starts at: 0
+Track match starts at: 45.1436882019043
+Track starts at: -45.132076263427734
+Confidence: 0.794370941489181
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 05.mp3
+Query match starts at: 2.3222060203552246
+Track match starts at: 47.46589279174805
+Track starts at: -60.13352966308594
+Confidence: 0.7977834702680935
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 06.mp3
+Query match starts at: 0
+Track match starts at: 75.14659118652344
+Track starts at: -75.13497924804688
+Confidence: 0.9641247153112971
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 07.mp3
+Query match starts at: 0.185776486992836
+Track match starts at: 90.2873764038086
+Track starts at: -90.13642883300781
+Confidence: 0.9611355322813604
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 08.mp3
+Query match starts at: 0
+Track match starts at: 105.14949035644531
+Track starts at: -105.12626647949219
+Confidence: 0.9656263149014839
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 09.mp3
+Query match starts at: 0.34833091497421265
+Track match starts at: 120.4760513305664
+Track starts at: -120.1161117553711
+Confidence: 0.4727321684348947
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Megalovania Sample 10.mp3
+Query match starts at: 0
+Track match starts at: 15.140783309936523
+Track starts at: -15.129172325134277
+Confidence: 0.9673363824930025
