@@ -81,4 +81,6 @@ First thing I did was refactoring the folder structure of this repo
 so it's functional as an actual code base. Anyone should now be able
 to run the code upon cloning this repo. In other words, it's no longer
 "just" a blog. Next thing is to code down the experiments for 
-the accuracy of SoundFingerprinting in identifying specific timestamps
+the accuracy of SoundFingerprinting in identifying specific timestamps  
+
+After establishing the code for the timestamp accuracy experiment, I threw in the original Megalovania file. I dove back into one of my old project files and exported 8-measure samples of how I cut up the song. The results seemed promising for this, mainly just misplacing the first 8 measures into the ending phrases of Megalovania. (When it plays just the basic riff, but the first two notes are different). Ok, this shouldn't be too bad. I then tried it with a MIDI piano cover by Jester Musician. This way, when I apply the changes to the video file, I can observe how accuracte it is as the video shows the MIDI file being played. Unfortunately, these results are less promising. More samples were blatantly misplaced. I tried changing some parameters of the fingerpring builder, mainly the sample range and stride, but that only harmed the results. Rob suggested I try some testing on cleaner, simpler audio, such as a simple piano scale or piano chord. Also compare results between WAV and MP3 files.
