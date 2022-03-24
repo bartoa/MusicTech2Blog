@@ -10,7 +10,7 @@ using VideoAligner;
 
 namespace VideoAlignerTest.Experiments;
 
-static class SpeedPitchChangeTest
+public static class SpeedPitchChangeTest
 {
     [Test]
     public static async Task TestRunner()
@@ -20,7 +20,7 @@ static class SpeedPitchChangeTest
         
         //Hard coded for now. Ideally it would dynamically find the folder,
         //but too much time has been spent making dynamic directors work with the Rider IDE :(
-        String rootPath = "C:/Users/bartoa/RiderProjects/VideoAligner/VideoAligner/tst/Audio Files/";
+        String rootPath = "C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/";
         String seaShantyPath = rootPath + "Sea Shanty.wav";
 
         List<String> testFiles = new List<String>
