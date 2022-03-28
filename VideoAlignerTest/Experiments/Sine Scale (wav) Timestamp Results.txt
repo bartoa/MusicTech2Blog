@@ -1,0 +1,69 @@
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/Sine Scale.wav
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C Tone.wav
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.8086213297858112
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/D Tone.wav
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.8038418912220406
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/E Tone.wav
+Query match starts at: 0
+Track match starts at: 3.994194507598877
+Track starts at: -3.994194507598877
+Confidence: 0.8086213407382392
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/F Tone.wav
+Query match starts at: 0.058055151253938675
+Track match starts at: 6.037735939025879
+Track starts at: -5.979681015014648
+Confidence: 0.785276085452065
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/G Tone.wav
+Query match starts at: 0
+Track match starts at: 7.988389015197754
+Track starts at: -7.988389015197754
+Confidence: 0.7944504922458889
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/A Tone.wav
+Query match starts at: 0
+Track match starts at: 10.031929969787598
+Track starts at: -10.031929969787598
+Confidence: 0.7991186792293841
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/B Tone.wav
+Query match starts at: 0
+Track match starts at: 11.982583045959473
+Track starts at: -11.982583045959473
+Confidence: 0.785276136369096
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C High Tone.wav
+No coverage found for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C High Tone.wav
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C D Scale.wav
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.7821331460306671
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/E F Scale.wav
+Query match starts at: 0.058055151253938675
+Track match starts at: 0.092888243496418
+Track starts at: -3.994194507598877
+Confidence: 0.9461550823083931
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/G A Scale.wav
+Query match starts at: 0
+Track match starts at: 7.988389015197754
+Track starts at: -8
+Confidence: 0.900949288393425
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/B High C Scale.wav
+Query match starts at: 0
+Track match starts at: 11.982583045959473
+Track starts at: -11.994194984436035
+Confidence: 0.888555241839283
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C D E F Scale.wav
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.9482798398908997
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/G A B High C Scale.wav
+Query match starts at: 0
+Track match starts at: 7.988389015197754
+Track starts at: -8
+Confidence: 0.9454780420673765

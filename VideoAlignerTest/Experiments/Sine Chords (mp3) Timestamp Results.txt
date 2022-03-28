@@ -1,0 +1,32 @@
+Begin the test runner!
+Building hash for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/Sine Chords.mp3
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C Major Chord.mp3
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.8086213297858112
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C Minor Chord.mp3
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.7565570742519394
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C Diminished Chord.mp3
+Query match starts at: 0
+Track match starts at: 3.994194507598877
+Track starts at: -3.994194507598877
+Confidence: 0.7991186307551229
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/C Augmented Chord.mp3
+Query match starts at: 0
+Track match starts at: 5.944847583770752
+Track starts at: -5.9912919998168945
+Confidence: 0.785276085452065
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/First two chords.mp3
+Query match starts at: 0
+Track match starts at: 0
+Track starts at: 0
+Confidence: 0.9229171028604475
+Building query for C:/Users/bartoa/RiderProjects/VideoAligner/VideoAlignerTest/Experiments/Audio Files/Sine Waves/Second two chords.mp3
+Query match starts at: 0
+Track match starts at: 3.994194507598877
+Track starts at: -4.005805969238281
+Confidence: 0.9009493004488822
