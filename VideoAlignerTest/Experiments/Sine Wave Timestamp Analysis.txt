@@ -1,0 +1,48 @@
+Each note or chord starts on an even-numbered second, so 
+C - 0s,
+D - 2s,
+E - 4s,
+F - 6s,
+G - 8s,
+A - 10s,
+B - 12s,
+High C - 14s
+
+C Major - 0s,
+C Minor - 2s,
+C Diminished - 4s,
+C Augmented - 6s
+
+SINE SCALE (WAV) SUMMARY:
+Accurate results: C, E, F, G, A, B, CD scale, GA scale, GHighC scale, CDEF scale, GABHighC scale
+Inaccurate results: D, HighC, EF scale
+
+D: Timestamp misplaced at t=0s
+High C: No coverage detected
+EF Scale: Timestamp misplaced at t=0s
+
+
+
+SINE SCALE (MP3) SUMMARY:
+Accurate results: C, E, G, A, B, CD, EF, GA, BHighC, CDEF, GABHighC
+Inaccurate results: D, F, High C
+
+D: Timestamp misplaced at t=0s
+F: Timestamp misplaced at t=3s
+High C: No coverage found
+
+
+
+SINE CHORDS (WAV) SUMMARY:
+Accurate results: Major, Minor, Diminished, First two chords, Second two chords
+Inaccurate results: Augmented
+
+Augmented: Timestamp misplaced at t=0s
+
+
+
+SINE CHORDS (MP3) SUMMARY:
+Accurate results: Major,  Diminished, Augmented, First two chords, Second two chords
+Inaccurate results: Minor
+
+Minor: Timestamp misplaced at t=0s
