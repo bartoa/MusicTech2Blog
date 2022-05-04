@@ -14,4 +14,8 @@
       <PackageReference Include="SoundFingerprinting.Emy" Version="8.5.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="src\VideoAligner.exe" />
+    </ItemGroup>
+
 </Project>

@@ -80,7 +80,7 @@ public static class TimestampAccuracyTest
         //fingerprintConfig.Audio.Stride = new IncrementalStaticStride(512);
         //var sineScaleHash = await Utilities.BuildHash(sineScalePath, audioService, fingerprintConfig);
         var sineChordHash = await Utilities.BuildHash(sineChordPath, audioService, fingerprintConfig);
-        
+
         //var sineScaleTrack = new TrackInfo("1", "Sine Scale", "Bartoa");
         var sineChordTrack = new TrackInfo("2", "Sine Chords", "Bartoa");
         var modelService = new InMemoryModelService();
