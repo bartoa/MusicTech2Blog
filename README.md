@@ -88,3 +88,83 @@ After establishing the code for the timestamp accuracy experiment, I threw in th
 I threw together a simple C major scale with a simple sine wave. A note plays for a second, then stops for a second, so the next note in the scale plays every two seconds. I did the same with some chords, putting down a major, minor, dimished, and augmented chord. I exported samples of each individual note and chord, and threw them into the algorithm to see how accurate it would be.  
 
 The results (found [here](https://github.com/bartoa/MusicTech2Blog/blob/master/VideoAlignerTest/Experiments/Sine%20Wave%20Timestamp%20Analysis.txt)) are very interesting, in that it is mostly accuracte except for a couple errors in every test case. What's interesting is that the errors seem to be oddly consistent. In the scale, for example, it almost always misplaced the second and last notes. Similar situation for the chords - when there was an error is placing a chord's timestamp, it was usually the second chord played or the last chord played. When I tried changing the stride, for example, it began placing the individual chords accurately, but then misplaced one of the longer samples with multiple chords. The fact these errors are so consistent tells me it's likely a specific issue that can be slved, but I haven't yet been able to identify what that could be.
+
+## Week of April 25
+### First working prototype!
+Ok so first, the elephant in the room. Yes, it's been a few weeks since the last update - oops.
+All my other classes kicked into overdrive for deadlines on final projects, homeworks, exams etc.
+I'm finally able to get back to this though! And there's a whole ton to update!!
+Instead of going through my code journey in chronological order, I'll just walk through the execution from the top and talk through the roadblocks I overcame from there.
+
+#### File execution & User input
+Currently, the program is created by running the .exe file in the command terminal. Upon execution, the program will ask the user for the following:
+- Original video file: The original, unedited video that needs to be rearranged
+- Remixed audio track: The remixed audio file that the video should be synced up with
+- Pitch: By how many semitones did the audio get changed by
+- Original tempo
+- New tempo
+- Beats per measure
+- How many measures to analyze at a time: For example, if the user only cut/moved/pasted/etc chunks of 4 measures at a time, then they should input 4 here.
+- Name of the output file: Make sure it ends in a valid video extension!
+
+Unfortunately, the video and audio files need to be in the same folder as the executable. The first thing I implement in the future will be a much more user friendly interface - perhaps as a command terminal tool like ffmpeg. 
+This program also creates a temp folder in the same directory as the executable, storing all the WIP files generated. The folder is deleted at the end of execution.  
+
+#### Adjusting pitch and speed of original video
+First, the program splits apart the audio and video streams so they can be modified independently. The pitch and tempo of the original audio is changed to match the remixed audio. The speed of the video is also adjusted to match the new tempo. 
+This, and most audio/video operations, are done with the library FFMpegCore. This library wraps most of FFMpeg's functionality into a suite of C# libraries that can be invoked within the source code itself. 
+The libraries have a few pre-coded operations, such as splitting apart the video and audio streams, but for the most part I need to define my FFMpeg inputs as "Custom arguments". This isn't much of an issue, just needs some occasional string formatting wizardry.  
+
+A lot of FFMpeg operates based off of "filters", which are effectively commands passed into the tool to execute various commands on the files. 
+To change the tempo of the audio, it just uses the atempo filter. 
+Changing the pitch is a bit more complicated. It took me a bit to figure out the exact syntax, but I was able to use a library within FFMpeg called rubberband to change the pitch without changing the tempo.
+Changing the video speed is another step more complicated than that. It uses the setpts filter, but the parameter for this filter is a little odd. Whereas changing the tempo would be a straight multiplier (i.e. a value of 2.0 to change the tempo from 100 to 200), setpts requires the *inverse* of that value. So instead of 2.0, it wants a value of 0.5.  
+
+#### Splitting the original video file
+Next, VideoAligner splits up the original audio and video tracks into "windows". These windows match the number of measures the user inputted to be analyzed at the start of the program. It calculates how many seconds are in a selection of x measures, which it then uses to evenly divide the tracks. 
+Splitting audio in this way with FFMpeg is fairly straightforward. The segment command is used to automatically cut up a video or audio track into a set of sub-files of equal length. For splitting the audio track, it's as simple as throwing this command into FFMpeg with a couple of parameters.  
+
+Unfortunately, splitting the video is a bit more complicated, and was my first major roadblock. 
+As it turns out, there's some shenanigans between FFMpeg and something in video files called keyframes. 
+When FFMpeg is told to cut a video at a specific timestamp, it doesn't actually cut the video at the *exact* spot. 
+Instead, the video gets cut at the keyframe *closest* to the specified timestamp. 
+Normally this wouldn't be a big issue, but since I'm trying to be super precise with the timing here, there was some bad syncing in the final output file. 
+VideoAligner needs to first re-encode a new video file with a keyframe at each spot to be cut. 
+Because the video needs to be re-encoded, this adds some unfortunately significant execution time to the program.  
+
+#### Hashing the original audio with SoundFingerprinting
+This is when the much-prophesized, researched, and experimented library SoundFingerprinting comes into play. 
+Each original audio window is given a unique ID, starting with id=0 and incrementing with chronological order. 
+Those files are then hashed into SoundFingerprinting and stored within the library's database. 
+Nothing too crazy to talk about here, all the issues with this step were ironed out in my preliminary experimentation.  
+
+#### Querying the remixed audio with SoundFingerprinting's database
+Here's where things get interesting. After VideoAligner splits the remixed audio into windows, it queries each of those windows with SoundFingerprinting. 
+When a remixed window matches an original window, the ID of the original window is stored in an array called windowOrder. 
+When the algorithm completes, this array stores the order for how the video windows of the matching IDs should be re-arranged.
+Whenever a remixed window fails to query with an original window, the value -1 is stored in the array.
+
+#### Gluing the video windows together
+This is when it all comes together. VideoAligner reads the information in the windowOrder array to re-arrange the video windows in the correct order. 
+It uses the FFMpegCore.Join function, which takes as input an array of strings representing the paths to the video windows. 
+It glues those windows together in the order of the array, and puts the output in the given destination path.  
+
+For the case of -1 appearing in the windowOrder array, VideoAligner creates a blank, black video matching the length of the video windows. 
+It first generates a black image with a matching resolution of the video with the Bitmap and Graphics libraries. 
+To generate a video based off this image, VideoAligner effectively creates a "slideshow" which infinitely loops the black image until a given duration is met. In this case, that duration is the length of the video windows. 
+This was the next major roadblock. As it turns out, the -loop flag needs to be set *before* the flag defining the input file. 
+From what I could figure out, FFMpegCore has no built-in functionality to set arguments before the input file. 
+I had to instead manually invoke the FFMpeg command in a separate command process. 
+Since the process is treated as an asynchronous command, I had to figure out how to get VideoAligner to wait for the end of execution.  
+
+Sadly, despite all this setup for the blank video generation, there's still some bugs to iron out. 
+It appears that the duration for the generated video is slightly off. Even if it's only a few milliseconds off, enough repeats of this video will cause an incorrect sync between the final video and audio. 
+This will be the first edge case that gets developed in the future.  
+
+#### Final output file & Cleanup
+Finally, the full remixed audio track is paired with the glued-together video track. 
+Fortunately this is super simple, just using FFMpegCore's function ReplaceAudio(). 
+The final track is placed in the same directory as the exe file (To be changed alongside a better user experience), and the temp folder is deleted. 
+
+And with all that, I have a prototype for the basic use case of VideoAligner! 
+A lot of edge cases need to be ironed out, but an important milestone has been reached.
